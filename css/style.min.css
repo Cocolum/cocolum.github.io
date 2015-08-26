@@ -1,1 +1,1 @@
-body{background:url(../images/corazon.jpg);background-size:cover}h1{color:#000;margin:10px 80px 0 0;top:50%;right:50%;font-size:6em;font-family:Stalemate,cursive;font-weight:bolder;text-align:center;position:fixed}header figure{float:left}
+body,html{min-height:100%}html{background:url(../images/corazon.jpg) center center no-repeat;background-size:cover}
