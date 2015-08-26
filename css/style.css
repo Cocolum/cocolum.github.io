@@ -19,14 +19,46 @@ body {
 
 
 @-webkit-keyframes pulse_animation {
-	0% { -webkit-filter: saturate(0.6); }
-	30% { -webkit-filter: saturate(0.7);}
-	40% {-webkit-filter: saturate(0.8); }
-	50% { -webkit-filter: saturate(0.9); }
-	60% { -webkit-filter: saturate(1); }
-	70% { -webkit-filter: saturate(0.9); }
-	80% { -webkit-filter: saturate(0.8);}
-	100% { -webkit-filter: saturate(0.7); }
+	0% { 
+		-webkit-filter: saturate(0.6); 
+		-moz-filter: saturate(0.6);
+		filter: saturate(0.6);
+	}
+	30% { 
+		-webkit-filter: saturate(0.7);
+		-moz-filter: saturate(0.7);
+		filter: saturate(0.7);
+	}
+	40% {
+		-webkit-filter: saturate(0.8);
+		-moz-filter: saturate(0.8);
+		filter: saturate(0.8);
+	}
+	50% {
+		-webkit-filter: saturate(0.9);
+		-moz-filter: saturate(0.7);
+		filter: saturate(0.7);
+	}
+	60% {
+		-webkit-filter: saturate(1);
+		-moz-filter: saturate(1);
+		filter: saturate(1);
+	}
+	70% { 
+		-webkit-filter: saturate(0.9);
+		-moz-filter: saturate(0.9);
+		filter: saturate(0.9);
+	}
+	80% {
+		-webkit-filter: saturate(0.8);
+		-moz-filter: saturate(0.8);
+		filter: saturate(0.8);
+	}
+	100% { 
+		-webkit-filter: saturate(0.7);
+		-moz-filter: saturate(0.7);
+		filter: saturate(0.7);
+	}
 }
 
 h1 {
