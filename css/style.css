@@ -19,14 +19,14 @@ body {
 
 
 @-webkit-keyframes pulse_animation {
-	0% { -webkit-filter: saturate(0); }
-	30% { -webkit-filter: saturate(0.3);}
-	40% {-webkit-filter: saturate(0.4); }
-	50% { -webkit-filter: saturate(0.5); }
-	60% { -webkit-filter: saturate(0.6); }
-	70% { -webkit-filter: saturate(0.7); }
+	0% { -webkit-filter: saturate(0.6); }
+	30% { -webkit-filter: saturate(0.7);}
+	40% {-webkit-filter: saturate(0.8); }
+	50% { -webkit-filter: saturate(0.9); }
+	60% { -webkit-filter: saturate(1); }
+	70% { -webkit-filter: saturate(0.9); }
 	80% { -webkit-filter: saturate(0.8);}
-	100% { -webkit-filter: saturate(1); }
+	100% { -webkit-filter: saturate(0.7); }
 }
 
 h1 {
