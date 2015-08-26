@@ -2,8 +2,12 @@ html{
 	background: url('../images/corazon.jpg') no-repeat center center;
 	min-height:100%;
 	background-size:cover;
-	 -webkit-filter: blur(1);
-  filter: blur(1);
+	-webkit-animation-name: 'pulse_animation';
+	-webkit-animation-duration: 5000ms;
+	-webkit-transform-origin:70% 70%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	
 }
 
 body {
@@ -11,6 +15,18 @@ body {
   min-height:100%;
   opacity: 0.75;
 
+}
+
+
+@-webkit-keyframes pulse_animation {
+	0% { -webkit-filter: saturate(0); }
+	30% { -webkit-filter: saturate(0.3);}
+	40% {-webkit-filter: saturate(0.4); }
+	50% { -webkit-filter: saturate(0.5); }
+	60% { -webkit-filter: saturate(0.6); }
+	70% { -webkit-filter: saturate(0.7); }
+	80% { -webkit-filter: saturate(0.8);}
+	100% { -webkit-filter: saturate(1); }
 }
 
 h1 {
