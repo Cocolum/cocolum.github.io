@@ -2,6 +2,9 @@ html{
 	background: url('../images/corazon.jpg') no-repeat center center;
 	min-height:100%;
 	background-size:cover;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	  -o-background-size: cover;
 	-webkit-animation-name: 'pulse_animation';
 	-webkit-animation-duration: 5000ms;
 	-webkit-transform-origin:70% 70%;
