@@ -1,5 +1,5 @@
 html, body {
-    background: #EEEEEE;
+    background: #FFF;
    
 }
 
@@ -106,6 +106,10 @@ header #logo img {
 	margin-left: 0.5em;
 	width: 120px;
 	
+}
+
+.vertical-center {
+ padding: 2em;
 }
 
 #wrap {
