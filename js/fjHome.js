@@ -14,4 +14,22 @@ $(document).ready(function(){
 				});							
 			});
 	
+	$("#falda1").click(function(){
+		  
+		if( $("#falda1").hasClass('selected') ){
+			$( ".falda1A" ).remove()
+			$("#falda1").removeClass('selected');
+		
+		}
+		else
+			{
+			$("#falda1").addClass('selected');
+		    $("#falda1").after('<div class="falda1A" ><a> <img class="img img-responsive" src="images/falda1A.png"></a> </div>');	
+			$("#falda1").after('<div class="falda1A"><a> <img class="img img-responsive" src="images/falda1C.png"></a> </div>');
+				$("#falda1").after('<div class="falda1A"><a> <img class="img img-responsive" src="images/falda1D.png"></a> </div>');
+			$(".falda1A").addClass("col-md-3");
+		}
+		
+			});
+	
 });
