@@ -128,6 +128,15 @@ header #logo img {
 	
 }
 
+.modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+#tallModal .modal-body p { margin-bottom: 900px }
+
 #wrap {
   min-height: 100%;
   height: 100%;
