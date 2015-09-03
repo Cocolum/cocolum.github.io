@@ -13,10 +13,4 @@ $(document).ready(function(){
 				$(".images").fadeIn("slow");		
 				});							
 			});
-	
-	
-		
-			});
-	
-	
-});
+	});
