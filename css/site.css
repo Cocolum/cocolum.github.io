@@ -133,6 +133,13 @@ header #logo img {
 	font-weight: bolder;
 }
 
+.nameJF{
+	font-size:3em;
+	font-family: 'Stalemate', cursive;
+	font-weight: bolder;
+	text-align: center;
+	
+}
 
 
 .divCorner {
