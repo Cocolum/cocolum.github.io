@@ -156,6 +156,12 @@ header #logo img {
 	
 }
 
+.imgInit {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .modal.modal-wide .modal-dialog {
   width: 90%;
 }
