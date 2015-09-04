@@ -85,6 +85,16 @@ nav ul li a:hover {
 
 }
 
+nav ul li a:active { 
+   text-decoration: none;
+	color:	 white;
+}
+
+nav ul li a:visited{ 
+   text-decoration: none;
+	color:	 white;
+}
+
 nav ul li a:hover img {
     border-radius: 50%;
 	width:50px;
@@ -134,10 +144,10 @@ header #logo img {
 }
 
 .nameJF{
-	font-size:3em;
+	font-size:4em;
 	font-family: 'Stalemate', cursive;
 	font-weight: bolder;
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -152,8 +162,13 @@ header #logo img {
  padding: 3em;
 }
 
+.bio{
+	display: none;
+}
+
 .bioText img{
-	
+	 border-radius: 35px;
+    border: 6px solid #ee4392;
 }
 
 .imgInit {
