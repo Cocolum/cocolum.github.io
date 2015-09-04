@@ -19,4 +19,7 @@ $(document).ready(function(){
   $(this).find(".modal-body").css("max-height", height);
 });
 	
+	
+	$( "#tooltip" ).tooltip();
+	
 	});
