@@ -151,6 +151,7 @@ header #logo img {
 	
 }
 
+.img-center {margin:0 auto;}
 
 .divCorner {
     border-radius: 25px;

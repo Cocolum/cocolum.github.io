@@ -1,5 +1,12 @@
 $(document).ready(function(){
 	
+	$("#wrap").hide();
+	$('footer').hide();
+	$("#logoIntro").fadeOut(3000, function () {
+		$("#wrap").show();
+		$('footer').show();
+     });
+	
 	$(".bio").hide();
 	
 	$("#sobreMi").click(function(){
