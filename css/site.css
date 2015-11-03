@@ -131,6 +131,8 @@ header #logo img {
 	
 }
 
+
+
 .imageFooter {
 	background-color: #5abc56;
 	padding: 25px;
@@ -151,7 +153,10 @@ header #logo img {
 	
 }
 
-.img-center {margin:0 auto;}
+.img-center {
+	margin:auto auto;	
+	
+}
 
 .divCorner {
     border-radius: 25px;
