@@ -1,0 +1,97 @@
+html{
+	background: url('../images/corazon.jpg') no-repeat center center;
+	min-height:100%;
+	background-size:cover;
+	-webkit-background-size: cover;
+	 -moz-background-size: cover;
+	  -o-background-size: cover;
+	-webkit-animation-name: 'pulse_animation';
+	-webkit-animation-duration: 5000ms;
+	-webkit-transform-origin:70% 70%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	
+}
+
+body {
+
+  min-height:100%;
+  opacity: 0.75;
+
+}
+
+
+@-webkit-keyframes pulse_animation {
+	0% { 
+		-webkit-filter: saturate(0.5); 
+		-moz-filter: saturate(0.5);
+		filter: saturate(0.5);
+	}
+	
+	10% { 
+		-webkit-filter: saturate(0.6); 
+		-moz-filter: saturate(0.6);
+		filter: saturate(0.6);
+	}
+	
+	20% { 
+		-webkit-filter: saturate(0.7); 
+		-moz-filter: saturate(0.7);
+		filter: saturate(0.7);
+	}
+	
+	30% { 
+		-webkit-filter: saturate(0.8);
+		-moz-filter: saturate(0.8);
+		filter: saturate(0.8);
+	}
+	40% {
+		-webkit-filter: saturate(0.9);
+		-moz-filter: saturate(0.9);
+		filter: saturate(0.9);
+	}
+	50% {
+		-webkit-filter: saturate(1);
+		-moz-filter: saturate(1);
+		filter: saturate(1);
+	}
+	60% {
+		-webkit-filter: saturate(0.9);
+		-moz-filter: saturate(0.9);
+		filter: saturate(0.9);
+	}
+	70% { 
+		-webkit-filter: saturate(0.8);
+		-moz-filter: saturate(0.8);
+		filter: saturate(0.8);
+	}
+	80% {
+		-webkit-filter: saturate(0.7);
+		-moz-filter: saturate(0.7);
+		filter: saturate(0.7);
+	}
+	100% { 
+		-webkit-filter: saturate(0.6);
+		-moz-filter: saturate(0.6);
+		filter: saturate(0.7);
+	}
+}
+
+h1 {
+	margin-right: 2em;
+	margin-bottom: 3em;
+	margin-top: 2em;
+	margin-left: 2em;	
+	color: black;
+	font-family: 'Stalemate', cursive;
+	font-weight: bolder;
+		font-size: 7em;
+}
+
+@media (max-width: @screen-xs) {
+    h1{font-size: 4em;}
+}
+
+@media (max-width: @screen-sm) {
+    h1{font-size: 4em;}
+}
