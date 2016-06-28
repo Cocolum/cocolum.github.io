@@ -98,8 +98,6 @@ nav ul li a:hover img {
  	text-decoration: none;
 }
 
-
-
 nav ul li a img
 {
 	width:30px;
@@ -124,9 +122,19 @@ nav ul .redesSociales
 header #logo img {
 	padding-right: 0.5em;
 	margin-right: 0.5em;
-	width: 120px;
+	width: 100%;
 	
 }
+.headerDiv {
+	 width:100%;
+ }
+ 
+ figure{
+	 float: left;
+      position: relative;
+      left: 40%;
+ }
+
 
 
 
